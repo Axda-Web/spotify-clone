@@ -1,0 +1,4 @@
+{
+  "*.ts": ["next lint", "prettier --write --ignore-path .gitignore ."],
+  "*.tsx": ["next lint", "prettier --write --ignore-path .gitignore ."]
+}
