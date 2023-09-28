@@ -9,6 +9,7 @@ import { Song } from '@/types';
 import usePlayer from '@/hooks/usePlayer';
 
 import SidebarItem from './SidebarItem';
+import Logo from './Logo';
 import Box from './Box';
 import Library from './Library';
 import { useMemo } from 'react';
@@ -64,6 +65,7 @@ const Sidebar = ({ children, songs }: SidebarProps) => {
       >
         <Box>
           <div className="flex flex-col gap-y-4 px-5 py-4">
+            <Logo />
             {routes.map((item) => (
               <SidebarItem key={item.label} {...item} />
             ))}
