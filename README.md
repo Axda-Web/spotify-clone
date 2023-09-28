@@ -90,4 +90,4 @@ To get started with the Topify project, follow the steps below:
    npm run start
    ```
 
-A deployed version of the Topify project is available on Vercel at [Topify]().
+A deployed version of the Topify project is available on Vercel at [Topify](https://topify-orcin.vercel.app/).
